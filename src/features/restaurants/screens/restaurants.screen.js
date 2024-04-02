@@ -19,8 +19,7 @@ const RestaurantListContainer = styled.View`
   padding: ${(props) => props.theme.space[3]};
 `;
 
-
-export const RestaurantsScreen = () =>(
+export const RestaurantsScreen = () => (
   <SafeArea>
     <SearchContainer>
       <Searchbar />
